@@ -12,3 +12,9 @@ nav a:visited
 {
     color: silver;
 }
+.header_block
+{
+    background-color: #7e8a97;
+    position: fixed;
+    text-align: center;
+}
