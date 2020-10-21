@@ -21,22 +21,28 @@ ul.main
 {
     color:teal;
 }
+p.lunchd
+{
+    clear:left;
+}
+
 img.lunch
 {
-    float:left
+    float: left;
 }
+
 .header_block
 {
     background-color: #7e8a97;
     text-align: center;
-    position:fixed;
     top:0;
     left:0;
     display: block;
+    border-top: 20px;
     width: 100%;
 
 }
-#menu, .about
+#menu, #about
 {
     background-color: #e7dec8;
     display:block;
