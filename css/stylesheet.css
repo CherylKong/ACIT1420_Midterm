@@ -4,31 +4,42 @@ body
     background-color: #cbaf87;
 }
 
+h2.main:first-child{
+    text-align: center;
+}
+
 nav a:link
 {
     color:rgb(21, 183, 221, );
 }
+
 nav a:visited
 {
     color: silver;
 }
-ul.menu
+ul.main
 {
     color:teal;
 }
-.menu
+img.lunch
 {
-    background-color: #e7dec8;
-    border-top: 2px;
-    bottom:0;
+    float:left
 }
 .header_block
 {
     background-color: #7e8a97;
-    position: fixed;
     text-align: center;
-    display: block;
-    width: 100%;
+    position:fixed;
     top:0;
     left:0;
+    display: block;
+    width: 100%;
+
+}
+#menu, .about
+{
+    background-color: #e7dec8;
+    display:block;
+    border-top: 2px;
+    bottom:0;
 }
