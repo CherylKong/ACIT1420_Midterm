@@ -12,9 +12,23 @@ nav a:visited
 {
     color: silver;
 }
+ul.menu
+{
+    color:teal;
+}
+.menu
+{
+    background-color: #e7dec8;
+    border-top: 2px;
+    bottom:0;
+}
 .header_block
 {
     background-color: #7e8a97;
     position: fixed;
     text-align: center;
+    display: block;
+    width: 100%;
+    top:0;
+    left:0;
 }
